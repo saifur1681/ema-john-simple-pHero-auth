@@ -32,7 +32,7 @@ const Signup = () => {
 
     if(user){
         navigate('/shop');
-    }
+    };
 
     const handleCreateUser = event => {
         event.preventDefault();
