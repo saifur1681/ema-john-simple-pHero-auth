@@ -46,7 +46,7 @@ const Signup = () => {
         }
         createUserWithEmailAndPassword(email, password);
         
-    }
+    };
 
     return (
         <div className='form-control'>
