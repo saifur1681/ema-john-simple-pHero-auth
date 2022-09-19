@@ -31,7 +31,7 @@ const Signup = () => {
     }
 
     if(user){
-        navigate('/shop')
+        navigate('/shop');
     }
 
     const handleCreateUser = event => {
