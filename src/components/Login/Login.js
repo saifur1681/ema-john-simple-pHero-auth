@@ -32,7 +32,7 @@ const Login = () => {
     const handleUserLogIn = event => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
-    }
+    };
 
     return (
         <div className='form-control'>
