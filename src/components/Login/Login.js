@@ -26,7 +26,7 @@ const Login = () => {
     }
 
     if (user) {
-        navigate('/shop')
+        navigate('/shop');
     }
 
     const handleUserLogIn = event => {
