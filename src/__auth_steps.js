@@ -9,6 +9,9 @@
  * useCreateUserWithEmailAndPassword from, react fireBase Hooks
  * if user is created redierect to the expected page
  * useSignInWithEmailAndPassword for sign in
+ * Create RequireAuth Component ==> check user exists also track user location
+ * in route wrap protected component by using Require Auth Component.
+ * 
  *  
  **/
 
