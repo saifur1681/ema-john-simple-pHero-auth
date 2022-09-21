@@ -4,7 +4,6 @@ import auth from '../../firebase.init';
 
 const Shipment = () => {
     const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
     const [address, setAddress] = useState('');
     const [phone, setPhone] = useState('');
     const [error, setError] = useState('');
@@ -25,6 +24,9 @@ const Shipment = () => {
 
     const handleCreateUser = event => {
         event.preventDefault();
+
+        const shipping = [name, email, address, phone];
+        console.log(shipping);
 
     };
 
